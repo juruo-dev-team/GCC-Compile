@@ -15,12 +15,12 @@ while True:
         cpp = input("请输入 C++ 源文件路径：")
         exe = input("请输入可执行文件路径：")
         ext = input("请输入编译选项：")
-        os.system("g++ -o "+exe+" "+cpp+" "+ext)
+        os.system("g++ -o " + exe + " " + cpp + " " + ext)
     elif tp == 2:
         c = input("请输入 C 源文件路径：")
         exe = input("请输入可执行文件路径：")
         ext = input("请输入编译选项：")
-        os.system("gcc -o "+exe+" "+c+" "+ext)
+        os.system("gcc -o " + exe + " " + c + " " + ext)
     elif tp == 3:
         os.system("g++ -v")
     elif tp == 4:
